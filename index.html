@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="./LoginPage/style.css">
+    <link rel="stylesheet" href="./min/bootstrap.min.css">
+
+</head>
+<body class="bg-dark">
+
+  <div class="header1 d-flex container-fluid bg-danger align-items-center justify-content-center">
+    <h4>TO DO HUB</h4>
+  </div>
+
+    <div class="container">
+        <form class="formdiv p-4 rounded-3 border border-2 border-dark w-30 mx-auto mb-5" action="./MainPage/MainPage.html">
+          <div class="mb-3">
+            <h2>User Login</h2>
+            <label for="username" class="form-label">UserName</label>
+            <input type="text" class="form-control" id="usrnme" aria-describedby="emailHelp" placeholder="Username">
+          </div>
+          <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Password</label>
+                <input type="password" class="form-control" id="psd" placeholder="Password"><br>
+              <button type="submit" class="btn btn-primary d-grid col-12" onclick=" return validation(validateUsername,validatePassword)">Login</button>
+              <span id="err" class="text-danger"></span>
+              
+        </form>
+      </div>
+        
+      <script src="./min/bootstrap.min.js"></script>
+      <script src="./LoginPage/script.js"></script>
+</body>
+</html>

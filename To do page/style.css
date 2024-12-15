@@ -1,0 +1,16 @@
+#dataTable
+{
+
+    display: flex;
+    flex-direction: inherit;
+    justify-content: center;
+    margin-top: 25px;
+    align-content: center;
+    color: rgb(0, 0, 0);
+
+}
+td {
+    background-color: rgb(69, 213, 114);
+    border: 1px solid #ffffff;
+    padding: 5px;
+}
